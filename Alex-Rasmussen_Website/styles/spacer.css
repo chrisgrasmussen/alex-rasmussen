@@ -1,0 +1,49 @@
+.spacer-container {
+    background-color: #FFE3D4;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 80px auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.spacer-dotted-line-a {
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+    justify-self: end;
+
+
+}
+
+.spacer-fish {
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+    justify-self: center;
+}
+
+
+.spacer-dotted-line-b {
+    grid-row: 1 / 2;
+    grid-column: 3 / 4;
+    justify-self: baseline;
+
+}
+
+
+
+.spacer-dotted-line-a img {
+    width: 7vw;
+    height: auto;
+}
+
+.spacer-fish img {
+    width: 100px;
+    height: auto;
+}
+
+.spacer-dotted-line-b img {
+    width: 7vw;
+    height: auto;
+}
+

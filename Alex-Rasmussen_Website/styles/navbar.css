@@ -1,0 +1,36 @@
+.nav-navbar {
+    background-color: #FFE3D4;
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+    grid-template-rows: 80px auto;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 1em;
+    padding-right: 1em;
+    
+}
+
+nav h1 {
+    font-size: 30px;
+    font-weight: 400;
+    justify-self: baseline;
+}
+
+nav img {
+    width: 30px;
+    height: 30px;
+    justify-self: end;
+}
+
+.rotate {
+    animation: rotation 6s infinite linear;
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }

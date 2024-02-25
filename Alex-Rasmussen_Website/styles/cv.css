@@ -1,0 +1,321 @@
+.cv-image-gallery {
+    background-color: #FFE3D4;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 2em;
+}
+
+.local-wolves {
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+    justify-self: center;
+}
+
+.local-wolves img{
+    height: 80vh;
+    width: auto;
+}
+
+.childs-play {
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+    justify-self: center;
+}
+
+.childs-play img{
+    height: 80vh;
+    width: auto;
+}
+
+.the-climate-pledge {
+    grid-row: 1 / 2;
+    grid-column: 3 / 4;
+    justify-self: center;
+}
+
+.the-climate-pledge img{
+    height: 80vh;
+    width: auto;
+}
+
+.amazon {
+    grid-row: 1 / 2;
+    grid-column: 4 / 5;
+    justify-self: center;
+}
+
+.amazon img{
+    height: 80vh;
+    width: auto;
+}
+
+.apple {
+    grid-row: 1 / 2;
+    grid-column: 5 / 6;
+    justify-self: center;
+}
+
+.apple img{
+    height: 80vh;
+    width: auto;
+}
+
+.zoom {
+    padding: 1em;
+    transition: transform .2s; /* Animation */
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+@media screen and (max-width: 768px) { 
+    .cv-image-gallery {
+        background-color: #FFE3D4;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+        justify-content: center;
+        padding-left: 0em;
+        padding-right: 0em;
+        padding-top: 0em;
+    }
+    .local-wolves {
+        grid-row: 1 / 2;
+        grid-column: 1 / 2;
+        justify-self: center;
+    }
+    
+    .local-wolves img{
+        height: auto;
+        width: 25vw;
+    }
+    
+    .childs-play {
+        grid-row: 1 / 2;
+        grid-column: 2 / 3;
+        justify-self: center;
+    }
+    
+    .childs-play img{
+        height: auto;
+        width: 25vw;
+    }
+    
+    .the-climate-pledge {
+        grid-row: 1 / 2;
+        grid-column: 3 / 4;
+        justify-self: center;
+    }
+    
+    .the-climate-pledge img{
+        height: auto;
+        width: 25vw;
+    }
+    
+    .amazon {
+        grid-row: 2 / 3;
+        grid-column: 1 / 2;
+        justify-self: center;
+    }
+    
+    .amazon img{
+        height: auto;
+        width: 25vw;
+    }
+    
+    .apple {
+        grid-row: 2 / 3;
+        grid-column: 2 / 3;
+        justify-self: center;
+    }
+    
+    .apple img{
+        height: auto;
+        width: 25vw;
+    }
+
+    .spacer-container {
+        display: visible;
+    }
+
+    .spacer-container {
+        background-color: #FFE3D4;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 80px auto;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    
+    .spacer-dotted-line-a {
+        grid-row: 1 / 2;
+        grid-column: 1 / 2;
+        justify-self: end;
+    
+    
+    }
+    
+    .spacer-fish {
+        grid-row: 1 / 2;
+        grid-column: 2 / 3;
+        justify-self: center;
+    }
+    
+    
+    .spacer-dotted-line-b {
+        grid-row: 1 / 2;
+        grid-column: 3 / 4;
+        justify-self: baseline;
+    
+    }
+    
+    
+    
+    .spacer-dotted-line-a img {
+        width: 7vw;
+        height: auto;
+    }
+    
+    .spacer-fish img {
+        width: 100px;
+        height: auto;
+    }
+    
+    .spacer-dotted-line-b img {
+        width: 7vw;
+        height: auto;
+    }
+    
+  }
+
+@media screen and (max-width: 500px) {
+    .cv-image-gallery {
+        background-color: #FFE3D4;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+        justify-content: center;
+        padding-left: 0em;
+        padding-right: 0em;
+        padding-top: 0em;
+    }
+    .local-wolves {
+        grid-row: 1 / 2;
+        grid-column: 1 / 2;
+        justify-self: center;
+    }
+    
+    .local-wolves img{
+        height: auto;
+        width: 25vw;
+    }
+    
+    .childs-play {
+        grid-row: 1 / 2;
+        grid-column: 2 / 3;
+        justify-self: center;
+    }
+    
+    .childs-play img{
+        height: auto;
+        width: 25vw;
+    }
+    
+    .the-climate-pledge {
+        grid-row: 1 / 2;
+        grid-column: 3 / 4;
+        justify-self: center;
+    }
+    
+    .the-climate-pledge img{
+        height: auto;
+        width: 25vw;
+    }
+    
+    .amazon {
+        grid-row: 2 / 3;
+        grid-column: 1 / 2;
+        justify-self: center;
+    }
+    
+    .amazon img{
+        height: auto;
+        width: 25vw;
+    }
+    
+    .apple {
+        grid-row: 2 / 3;
+        grid-column: 2 / 3;
+        justify-self: center;
+    }
+    
+    .apple img{
+        height: auto;
+        width: 25vw;
+    }
+
+    .spacer-container {
+        display: visible;
+    }
+
+    .spacer-container {
+        background-color: #FFE3D4;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 80px auto;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    
+    .spacer-dotted-line-a {
+        grid-row: 1 / 2;
+        grid-column: 1 / 2;
+        justify-self: end;
+    
+    
+    }
+    
+    .spacer-fish {
+        grid-row: 1 / 2;
+        grid-column: 2 / 3;
+        justify-self: center;
+    }
+    
+    
+    .spacer-dotted-line-b {
+        grid-row: 1 / 2;
+        grid-column: 3 / 4;
+        justify-self: baseline;
+    
+    }
+    
+    
+    
+    .spacer-dotted-line-a img {
+        width: 7vw;
+        height: auto;
+    }
+    
+    .spacer-fish img {
+        width: 100px;
+        height: auto;
+    }
+    
+    .spacer-dotted-line-b img {
+        width: 7vw;
+        height: auto;
+    }
+}
